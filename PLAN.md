@@ -86,7 +86,7 @@ Vì nhóm có 3 người thay vì 4, vai trò **ETL/ELT Builder** và **Observab
 
 ## Tiêu chí hoàn thành
 
-- [ ] `schema.py`: `UnifiedDocument` có đủ 6 trường kiểu `str`.
+- [x] `schema.py`: `UnifiedDocument` có đủ 6 trường kiểu `str`. ✅
 - [ ] `process_unstructured.py`: Hai hàm trả về dict đúng cấu trúc schema, PDF đã loại bỏ noise.
 - [ ] `quality_check.py`: Hàm lọc đúng tài liệu lỗi, giữ lại tài liệu hợp lệ.
 - [ ] `orchestrator.py`: Pipeline chạy thành công, xuất `processed_knowledge_base.json` với số records > 0.
